@@ -1,0 +1,10 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: EdgeRAJIProject
+  gitServerName: RAJIRepo
+  gitUrl: https://github.com/rasher20/EdgeRAJIProject
+  gitUsername: rasher20
+  gitToken: edge.scaffolding.EdgeRAJIProject.RAJIRepo.gitToken
+  gitBranch: main
