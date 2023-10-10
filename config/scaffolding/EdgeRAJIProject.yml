@@ -1,6 +1,15 @@
 version: "1.0"
 info:
   model: int-scaffold
+services:
+- serviceName: edge.rajiproject.integrations:HelloWorld
+  packages:
+  - name: EdgeRAJIProject
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.560
 packages:
 - name: EdgeRAJIProject
   gitServerName: RAJIRepo
