@@ -14,6 +14,57 @@ services:
   packages:
   - name: EdgeRAJIProject
     version: "1.0"
+- serviceName: edge.rajiproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:pocDatabase
+  packages:
+  - name: EdgeRAJIProject
+    version: "1.0"
+configurationVariables:
+  ? artConnection.EdgeRAJIProject.edge.rajiproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.pocDatabase.connectionSettings.transactionType
+  : NO_TRANSACTION
+  ? artConnection.EdgeRAJIProject.edge.rajiproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.pocDatabase.connectionSettings.dbType
+  : MSSQL
+  ? artConnection.EdgeRAJIProject.edge.rajiproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.pocDatabase.connectionManagerSettings.heartBeatInterval
+  : "0"
+  ? artConnection.EdgeRAJIProject.edge.rajiproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.pocDatabase.connectionSettings.datasourceClass
+  : com.wm.dd.jdbcx.sqlserver.SQLServerDataSource
+  ? artConnection.EdgeRAJIProject.edge.rajiproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.pocDatabase.connectionSettings.keyStore
+  : ""
+  ? artConnection.EdgeRAJIProject.edge.rajiproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.pocDatabase.connectionManagerSettings.poolable
+  : "false"
+  ? artConnection.EdgeRAJIProject.edge.rajiproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.pocDatabase.connectionSettings.trustStore
+  : ""
+  ? artConnection.EdgeRAJIProject.edge.rajiproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.pocDatabase.connectionSettings.networkProtocol
+  : ""
+  ? artConnection.EdgeRAJIProject.edge.rajiproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.pocDatabase.connectionManagerSettings.startupBackoffSecs
+  : "10"
+  ? artConnection.EdgeRAJIProject.edge.rajiproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.pocDatabase.connectionEnabled
+  : "false"
+  ? artConnection.EdgeRAJIProject.edge.rajiproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.pocDatabase.connectionManagerSettings.maximumPoolSize
+  : "10"
+  ? artConnection.EdgeRAJIProject.edge.rajiproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.pocDatabase.connectionSettings.portNumber
+  : "1433"
+  ? artConnection.EdgeRAJIProject.edge.rajiproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.pocDatabase.connectionSettings.databaseName
+  : poc
+  ? artConnection.EdgeRAJIProject.edge.rajiproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.pocDatabase.connectionSettings.password
+  : "{AES}In5ryEXrjnFCVFsIOz151WmK1wuN3U1rA1B0VhuZoUw="
+  ? artConnection.EdgeRAJIProject.edge.rajiproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.pocDatabase.connectionSettings.serverName
+  : SAG-LVVX3YWPF0
+  ? artConnection.EdgeRAJIProject.edge.rajiproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.pocDatabase.connectionSettings.user
+  : sa
+  ? artConnection.EdgeRAJIProject.edge.rajiproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.pocDatabase.connectionManagerSettings.blockingTimeout
+  : "1000"
+  ? artConnection.EdgeRAJIProject.edge.rajiproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.pocDatabase.connectionManagerSettings.startupRetryCount
+  : "0"
+  ? artConnection.EdgeRAJIProject.edge.rajiproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.pocDatabase.connectionSettings.driverType
+  : Progress® DataDirect®
+  ? artConnection.EdgeRAJIProject.edge.rajiproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.pocDatabase.connectionManagerSettings.expireTimeout
+  : "1000"
+  ? artConnection.EdgeRAJIProject.edge.rajiproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.pocDatabase.connectionSettings.otherProperties
+  : loginTimeout=60;
+  ? artConnection.EdgeRAJIProject.edge.rajiproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.pocDatabase.connectionManagerSettings.poolIncrementSize
+  : "1"
+  ? artConnection.EdgeRAJIProject.edge.rajiproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.pocDatabase.connectionManagerSettings.minimumPoolSize
+  : "0"
 packages:
 - name: EdgeRAJIProject
   gitServerName: RAJIRepo
@@ -21,3 +72,7 @@ packages:
   gitUsername: rasher20
   gitToken: edge.scaffolding.EdgeRAJIProject.RAJIRepo.gitToken
   gitBranch: main
+- name: WmJDBCAdapter
+  wpmServer: https://packages.softwareag.com
+  wpmRegistry: softwareag
+  wpmToken: edge.scaffolding.WmJDBCAdapter.https://packages.softwareag.com.wpmToken
