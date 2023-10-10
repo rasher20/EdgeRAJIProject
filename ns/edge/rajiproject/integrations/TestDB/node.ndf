@@ -80,7 +80,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">rajiv.asher@softwareag.com</value>
-    <value name="lastModifiedDate">1696905029591</value>
+    <value name="lastModifiedDate">1696905084865</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">483ead03e0c84f6f8ce54daa851e7c8e</value>
       <null name="group"/>
