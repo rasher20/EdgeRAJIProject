@@ -22,6 +22,10 @@ services:
   packages:
   - name: EdgeRAJIProject
     version: "1.0"
+- serviceName: edge.rajiproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:InsertTest
+  packages:
+  - name: EdgeRAJIProject
+    version: "1.0"
 configurationVariables:
   ? artConnection.EdgeRAJIProject.edge.rajiproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.pocDatabase.connectionSettings.transactionType
   : NO_TRANSACTION

@@ -32,19 +32,6 @@
           <value name="form_qualified">false</value>
           <value name="is_global">false</value>
         </record>
-      </array>
-      <value name="modifiable">true</value>
-    </record>
-    <record name="sig_out" javaclass="com.wm.util.Values">
-      <value name="node_type">record</value>
-      <value name="node_subtype">unknown</value>
-      <value name="is_public">false</value>
-      <value name="field_type">record</value>
-      <value name="field_dim">0</value>
-      <value name="nillable">true</value>
-      <value name="form_qualified">false</value>
-      <value name="is_global">false</value>
-      <array name="rec_fields" type="record" depth="1">
         <record javaclass="com.wm.util.Values">
           <value name="node_type">field</value>
           <value name="node_subtype">unknown</value>
@@ -65,6 +52,19 @@
       </array>
       <value name="modifiable">true</value>
     </record>
+    <record name="sig_out" javaclass="com.wm.util.Values">
+      <value name="node_type">record</value>
+      <value name="node_subtype">unknown</value>
+      <value name="is_public">false</value>
+      <value name="field_type">record</value>
+      <value name="field_dim">0</value>
+      <value name="nillable">true</value>
+      <value name="form_qualified">false</value>
+      <value name="is_global">false</value>
+      <array name="rec_fields" type="record" depth="1">
+      </array>
+      <value name="modifiable">true</value>
+    </record>
   </record>
   <value name="description"></value>
   <value name="stateless">yes</value>
@@ -80,7 +80,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">rajiv.asher@softwareag.com</value>
-    <value name="lastModifiedDate">1696905280520</value>
+    <value name="lastModifiedDate">1696905301638</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">483ead03e0c84f6f8ce54daa851e7c8e</value>
       <null name="group"/>
