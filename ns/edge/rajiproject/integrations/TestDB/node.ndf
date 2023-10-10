@@ -80,7 +80,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">rajiv.asher@softwareag.com</value>
-    <value name="lastModifiedDate">1696905084865</value>
+    <value name="lastModifiedDate">1696905167278</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">483ead03e0c84f6f8ce54daa851e7c8e</value>
       <null name="group"/>
@@ -90,57 +90,8 @@
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <value name="itemType">APPS</value>
-        <value name="id">com.wm.adapter.wmjdbc.JDBCAdapter</value>
-        <value name="name">Database</value>
-        <value name="providerName">WmJDBCAdapter</value>
-        <record name="operation" javaclass="com.wm.util.Values">
-          <value name="operationName">selectTestTable</value>
-          <value name="isCustom">true</value>
-          <value name="operationType">actions</value>
-          <value name="connectionType">sagcloud</value>
-          <value name="projectName">edge.rajiproject</value>
-        </record>
-        <value name="appType">predefined</value>
-        <Boolean name="hasAccount">true</Boolean>
-        <value name="description">Database Application enables you to perform database operation with cloud databases.</value>
-        <value name="type">Adapters</value>
-        <value name="allowDeleteApplication">false</value>
-        <value name="allowUpdateApplication">false</value>
-        <value name="packageName">WmJDBCAdapter</value>
-        <null name="certified"/>
-        <value name="version">1.0</value>
-        <Boolean name="allowCustomOperations">true</Boolean>
-        <Boolean name="deprecated">false</Boolean>
-        <null name="icon"/>
-        <Boolean name="listenerEnabled">false</Boolean>
-        <number name="sourceType" type="Long">1</number>
-        <Boolean name="connectionRequired">true</Boolean>
-        <Boolean name="serviceReferenceResolved">true</Boolean>
-        <array name="map" type="object" depth="1">
-        </array>
-        <array name="mapDelete" type="object" depth="1">
-        </array>
-        <array name="transformer" type="object" depth="1">
-        </array>
-        <array name="lookupTransformer" type="object" depth="1">
-        </array>
-        <null name="mapSet"/>
-        <array name="inputMap" type="object" depth="1">
-        </array>
-        <array name="outputMap" type="object" depth="1">
-        </array>
-        <record name="connection" javaclass="com.wm.util.Values">
-          <value name="connectionName">pocDatabase</value>
-          <value name="connectionType">sagcloud</value>
-          <null name="description"/>
-        </record>
-        <value name="connectionNSName">edge.rajiproject.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:pocDatabase</value>
-        <value name="connectionType">sagcloud</value>
-        <Boolean name="accountReferenceResolved">true</Boolean>
-        <number name="ui_step_index" type="Long">1</number>
-        <number name="nodeIndex" type="Long">0</number>
-        <null name="outputMapSet"/>
+        <value name="itemType">ALL</value>
+        <value name="name">NEW</value>
       </record>
     </record>
   </record>
